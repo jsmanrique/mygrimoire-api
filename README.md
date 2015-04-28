@@ -2,6 +2,8 @@
 
 I am not a good programmer, but I like playing with Python code, so I decided
 to create a simple REST API for [GrimoireLib](https://github.com/VizGrimoire/GrimoireLib)
+after reading [this post](http://blog.bitergia.com/2015/02/25/data-data-data-about-your-favourite-community/) in 
+[Bitergia's blog](http://blog.bitergia.com)
 
 # What do you need?
 
@@ -52,7 +54,7 @@ GET /scm/activity
 GET /scm/repositories
 GET /scm/repositories/<string:repo>
 GET /scm/contributors
-GET /scm/contributors/<string:contrbutor>
+GET /scm/contributors/<string:contributor>
 ```
 
 Added to this, GrimoireLib let's you to apply different filters to the data:
