@@ -13,21 +13,21 @@ You would need MySQL databases produced by [Metrics Grimoire](http://metricsgrim
 
 # How to use it?
 
-Create a configuration file in the same folder than the '''api.py''' file:
+Create a configuration file in the same folder than the api.py file:
 
-'''
+```
 [database]
 user = [MySQL database user]
 password = [MySQL database password]
 source_code_db = [MySQL database produced by cvsanaly]
 identities_db = [MySQL database that hosts indetities]
-'''
+```
 
 And lauch it with:
 
-'''
+```
 $ python api.py
-'''
+```
 
 # API definition
 
